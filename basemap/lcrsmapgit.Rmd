@@ -1,0 +1,21 @@
+---
+title: "lcrsmap"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo = FALSE, eval = TRUE }
+library(mapview)
+library(leaflet)
+
+
+m <- leaflet()
+m <- addTiles(m)
+m
+
+```
+
